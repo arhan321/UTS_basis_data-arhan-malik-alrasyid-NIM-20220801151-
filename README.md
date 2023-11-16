@@ -4,7 +4,8 @@ arhan malik alrasyid (20220801151)
 
 database ini terkonsep untuk jadwal perkuliahan,
 
-table transaksinya ada pada tabel `jadwal_perkuliahan`
+table transaksinya ada pada tabel `jadwal_perkuliahan`.
+
 nanti jika ingin melihat data perkuliahan silahkan insert querry : 
 SELECT
 	mahasiswa.Nim_mahasiswa, 
