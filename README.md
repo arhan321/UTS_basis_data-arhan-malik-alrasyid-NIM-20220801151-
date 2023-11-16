@@ -1,4 +1,4 @@
-# UTS_basis_data-arhan-malik-alrasyid-NIM-20220801151-
+# UTS_basis_data_arhan_malik_alrasyid_20220801151
 UTS_basis_data 
 arhan malik alrasyid (20220801151)
 
