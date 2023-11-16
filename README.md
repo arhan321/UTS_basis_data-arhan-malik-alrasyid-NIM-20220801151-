@@ -5,7 +5,7 @@ arhan malik alrasyid (20220801151)
 database ini terkonsep untuk jadwal perkuliahan,
 
 table transaksinya ada pada tabel `jadwal_perkuliahan`
-nanti jika inging melihat data perkuliahan silahkan insert querry : 
+nanti jika ingin melihat data perkuliahan silahkan insert querry : 
 SELECT
 	mahasiswa.Nim_mahasiswa, 
 	CONCAT(mahasiswa.First_name, ' ', mahasiswa.Last_name) AS Full_name, 
