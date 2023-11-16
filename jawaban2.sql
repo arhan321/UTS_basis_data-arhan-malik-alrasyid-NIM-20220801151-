@@ -13,7 +13,8 @@ INSERT INTO `dosen` (`nik_dosen`, `nama_dosen`, `pendidikan`) VALUES
 INSERT INTO `mahasiswa` (`Nim_mahasiswa`, `First_name`, `Last_name`, `TTL`, `fakultas`, `Prodi`) VALUES
 (2022080151, 'arhan', 'malik', '2023-11-01', 1532, 1101),
 (2022080152, 'Rizki', 'Wahyu', '2023-11-04', 1532, 1101),
-(2022080153, 'Fajri', 'Dzul', '2023-11-02', 1532, 1102);
+(2022080153, 'Fajri', 'Dzul', '2023-11-02', 1532, 1102),
+(2022080154, 'hermawan','rustandi','2023-11-06', 1532, 1102);
 
 INSERT INTO `mata_kuliah` (`kode_mata_kuliah`, `mata_kuliah`, `pengajar`, `jam_Perkuliahan`, `kelas`, `hari`, `prodi`, `SKS`) VALUES
 (1141, 'Basis_data', 2203, '07.30 - 10.00', 'CR.A 405', 'Senin', 1102, 3),
@@ -30,4 +31,6 @@ INSERT INTO `jadwal_perkuliahan` ( `id_jadwal_to_mahasiswa`, `id_jadwal_mata_kul
 ( 2022080151, 1152, 1),
 (2022080152, 1152, 1),
 (2022080153, 1141, 1),
-(2022080153, 1142, 1);
+(2022080153, 1142, 1),
+(2022080154, 1141, 1),
+(2022080154, 1142, 1);
