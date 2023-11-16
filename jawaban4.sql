@@ -1,6 +1,6 @@
 SELECT
 	mahasiswa.Nim_mahasiswa, 
-  CONCAT(mahasiswa.First_name, ' ', mahasiswa.Last_name) AS Full_name,
+  CONCAT(mahasiswa.First_name, ' ', mahasiswa.Last_name) AS mahasiswa,
 	mahasiswa.Prodi, 
 	mata_kuliah.kode_mata_kuliah, 
 	mata_kuliah.mata_kuliah, 
