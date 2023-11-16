@@ -1,8 +1,6 @@
 SELECT
-	dosen.nama_dosen, 
-	dosen.nik_dosen, 
 	mahasiswa.Nim_mahasiswa, 
-	CONCAT(mahasiswa.First_name, ' ', mahasiswa.Last_name) AS mahasiswa, 
+        CONCAT(mahasiswa.First_name, ' ', mahasiswa.Last_name) AS mahasiswa, 
 	mahasiswa.Prodi, 
 	mata_kuliah.kode_mata_kuliah, 
 	mata_kuliah.mata_kuliah, 
@@ -10,8 +8,9 @@ SELECT
 	mata_kuliah.jam_Perkuliahan, 
 	mata_kuliah.kelas, 
 	mata_kuliah.hari, 
-	mata_kuliah.prodi, 
-	mata_kuliah.SKS
+	mata_kuliah.SKS, 
+	dosen.nik_dosen, 
+	dosen.nama_dosen
 FROM
 	mahasiswa
 	INNER JOIN
